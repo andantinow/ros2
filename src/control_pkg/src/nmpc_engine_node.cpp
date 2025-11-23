@@ -33,7 +33,7 @@ public:
     // 2. Publisher (Output to Simulator)
     // Note: F1TENTH sim usually listens on '/drive' or '/sim/drive'
     pub_drive_ = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>(
-      "/drive", qos);
+      "/sim/drive", qos);
 
     // Control Loop (Fast: 50Hz)
     timer_ = this->create_wall_timer(
