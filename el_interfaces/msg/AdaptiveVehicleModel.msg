@@ -1,0 +1,3 @@
+float64 tire_grip_mu
+float64 cornering_stiffness_front
+float64 cornering_stiffness_rear
